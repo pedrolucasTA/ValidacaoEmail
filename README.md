@@ -1,0 +1,1 @@
+Releitura de template por Pedro L T Agostini, a imagem original está no arquivo de imagens "img", com o nome de "desafio-front".

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon " href="../img/Ellipse 1circulo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&display=swap" rel="stylesheet">
+    <title>Email Validation</title>
+</head>
+
+<body>
+
+    <div class="email-box">
+
+        <img class="imagem1" height="100%" width="45%" src="../img/jasmin-chew-Z1pLKOj5Acc-unsplash.jpg">
+
+        <img class="logo" width="15px" src="../img/Ellipse 1circulo.png">
+        <h2>BASE<br>APPAREL</h2>
+
+        <h1 class="primeiro">WE'RE</h1>
+        <h1 class="segundo">COMING<br>SOON</h1>
+        <p class="descricao">Hello fellow shoppen! We're currently building our new<br>
+            fashion store Add your email below to stay up to-date with<br>
+            announcements and our lounch deals</p>
+
+        <form class="form-email">
+            <di class="input-box">
+                <input class="input-email" type="email" placeholder="Email Address" onblur="validarEmail()"
+                    onfocus="sumirMensagem()" id="email" />
+            </di>
+
+            <button class="btn-enviar" type="submit"><img class="img-btn" width="6px"
+                    src="../img/flecha.png"></button>
+
+            <span id="error-email"></span>
+
+        </form>
+
+        <script src="./script.js"></script>
+
+    </div>
+
+</body>
+
+</html>
